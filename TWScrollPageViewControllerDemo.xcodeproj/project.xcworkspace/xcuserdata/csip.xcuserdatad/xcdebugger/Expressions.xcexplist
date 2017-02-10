@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[TWScrollPageViewController setupAllTitleButton]:TWScrollPageViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "titleButton.tag">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

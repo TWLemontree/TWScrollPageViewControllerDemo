@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7021AC41E4D51A70010715F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7021AC31E4D51A70010715F /* main.m */; };
+		E7021AC71E4D51A70010715F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7021AC61E4D51A70010715F /* AppDelegate.m */; };
+		E7021ACD1E4D51A70010715F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7021ACB1E4D51A70010715F /* Main.storyboard */; };
+		E7021ACF1E4D51A70010715F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7021ACE1E4D51A70010715F /* Assets.xcassets */; };
+		E7021AD21E4D51A70010715F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7021AD01E4D51A70010715F /* LaunchScreen.storyboard */; };
+		E7021ADD1E4D51A80010715F /* TWScrollPageViewControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7021ADC1E4D51A70010715F /* TWScrollPageViewControllerDemoTests.m */; };
+		E7021AE81E4D51A80010715F /* TWScrollPageViewControllerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7021AE71E4D51A80010715F /* TWScrollPageViewControllerDemoUITests.m */; };
+		E7021AF81E4D51CC0010715F /* TWScrollPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7021AF71E4D51CC0010715F /* TWScrollPageViewController.m */; };
+		E7021AFB1E4D523C0010715F /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7021AFA1E4D523C0010715F /* TestViewController.m */; };
+		E7021B091E4D58BA0010715F /* HotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7021AFE1E4D58BA0010715F /* HotViewController.m */; };
+		E7021B0A1E4D58BA0010715F /* ReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7021B001E4D58BA0010715F /* ReaderViewController.m */; };
+		E7021B0B1E4D58BA0010715F /* ScienceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7021B021E4D58BA0010715F /* ScienceViewController.m */; };
+		E7021B0C1E4D58BA0010715F /* ScoietyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7021B041E4D58BA0010715F /* ScoietyViewController.m */; };
+		E7021B0D1E4D58BA0010715F /* TopLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7021B061E4D58BA0010715F /* TopLineViewController.m */; };
+		E7021B0E1E4D58BA0010715F /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7021B081E4D58BA0010715F /* VideoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7021AD91E4D51A70010715F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7021AB71E4D51A70010715F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7021ABE1E4D51A70010715F;
+			remoteInfo = TWScrollPageViewControllerDemo;
+		};
+		E7021AE41E4D51A80010715F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7021AB71E4D51A70010715F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7021ABE1E4D51A70010715F;
+			remoteInfo = TWScrollPageViewControllerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E7021ABF1E4D51A70010715F /* TWScrollPageViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TWScrollPageViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7021AC31E4D51A70010715F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E7021AC51E4D51A70010715F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E7021AC61E4D51A70010715F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E7021ACC1E4D51A70010715F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7021ACE1E4D51A70010715F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7021AD11E4D51A70010715F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7021AD31E4D51A70010715F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7021AD81E4D51A70010715F /* TWScrollPageViewControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TWScrollPageViewControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7021ADC1E4D51A70010715F /* TWScrollPageViewControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWScrollPageViewControllerDemoTests.m; sourceTree = "<group>"; };
+		E7021ADE1E4D51A80010715F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7021AE31E4D51A80010715F /* TWScrollPageViewControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TWScrollPageViewControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7021AE71E4D51A80010715F /* TWScrollPageViewControllerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWScrollPageViewControllerDemoUITests.m; sourceTree = "<group>"; };
+		E7021AE91E4D51A80010715F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7021AF61E4D51CC0010715F /* TWScrollPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWScrollPageViewController.h; sourceTree = "<group>"; };
+		E7021AF71E4D51CC0010715F /* TWScrollPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWScrollPageViewController.m; sourceTree = "<group>"; };
+		E7021AF91E4D523C0010715F /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		E7021AFA1E4D523C0010715F /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		E7021AFD1E4D58BA0010715F /* HotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotViewController.h; sourceTree = "<group>"; };
+		E7021AFE1E4D58BA0010715F /* HotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotViewController.m; sourceTree = "<group>"; };
+		E7021AFF1E4D58BA0010715F /* ReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderViewController.h; sourceTree = "<group>"; };
+		E7021B001E4D58BA0010715F /* ReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderViewController.m; sourceTree = "<group>"; };
+		E7021B011E4D58BA0010715F /* ScienceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScienceViewController.h; sourceTree = "<group>"; };
+		E7021B021E4D58BA0010715F /* ScienceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScienceViewController.m; sourceTree = "<group>"; };
+		E7021B031E4D58BA0010715F /* ScoietyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoietyViewController.h; sourceTree = "<group>"; };
+		E7021B041E4D58BA0010715F /* ScoietyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoietyViewController.m; sourceTree = "<group>"; };
+		E7021B051E4D58BA0010715F /* TopLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopLineViewController.h; sourceTree = "<group>"; };
+		E7021B061E4D58BA0010715F /* TopLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopLineViewController.m; sourceTree = "<group>"; };
+		E7021B071E4D58BA0010715F /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		E7021B081E4D58BA0010715F /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7021ABC1E4D51A70010715F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7021AD51E4D51A70010715F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7021AE01E4D51A80010715F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7021AB61E4D51A70010715F = {
+			isa = PBXGroup;
+			children = (
+				E7021AC11E4D51A70010715F /* TWScrollPageViewControllerDemo */,
+				E7021ADB1E4D51A70010715F /* TWScrollPageViewControllerDemoTests */,
+				E7021AE61E4D51A80010715F /* TWScrollPageViewControllerDemoUITests */,
+				E7021AC01E4D51A70010715F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7021AC01E4D51A70010715F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7021ABF1E4D51A70010715F /* TWScrollPageViewControllerDemo.app */,
+				E7021AD81E4D51A70010715F /* TWScrollPageViewControllerDemoTests.xctest */,
+				E7021AE31E4D51A80010715F /* TWScrollPageViewControllerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7021AC11E4D51A70010715F /* TWScrollPageViewControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E7021AFC1E4D58BA0010715F /* ChildVC */,
+				E7021AF51E4D51B00010715F /* TWScrollPageVC */,
+				E7021AC51E4D51A70010715F /* AppDelegate.h */,
+				E7021AC61E4D51A70010715F /* AppDelegate.m */,
+				E7021ACB1E4D51A70010715F /* Main.storyboard */,
+				E7021ACE1E4D51A70010715F /* Assets.xcassets */,
+				E7021AD01E4D51A70010715F /* LaunchScreen.storyboard */,
+				E7021AD31E4D51A70010715F /* Info.plist */,
+				E7021AC21E4D51A70010715F /* Supporting Files */,
+				E7021AF91E4D523C0010715F /* TestViewController.h */,
+				E7021AFA1E4D523C0010715F /* TestViewController.m */,
+			);
+			path = TWScrollPageViewControllerDemo;
+			sourceTree = "<group>";
+		};
+		E7021AC21E4D51A70010715F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7021AC31E4D51A70010715F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E7021ADB1E4D51A70010715F /* TWScrollPageViewControllerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E7021ADC1E4D51A70010715F /* TWScrollPageViewControllerDemoTests.m */,
+				E7021ADE1E4D51A80010715F /* Info.plist */,
+			);
+			path = TWScrollPageViewControllerDemoTests;
+			sourceTree = "<group>";
+		};
+		E7021AE61E4D51A80010715F /* TWScrollPageViewControllerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E7021AE71E4D51A80010715F /* TWScrollPageViewControllerDemoUITests.m */,
+				E7021AE91E4D51A80010715F /* Info.plist */,
+			);
+			path = TWScrollPageViewControllerDemoUITests;
+			sourceTree = "<group>";
+		};
+		E7021AF51E4D51B00010715F /* TWScrollPageVC */ = {
+			isa = PBXGroup;
+			children = (
+				E7021AF61E4D51CC0010715F /* TWScrollPageViewController.h */,
+				E7021AF71E4D51CC0010715F /* TWScrollPageViewController.m */,
+			);
+			name = TWScrollPageVC;
+			sourceTree = "<group>";
+		};
+		E7021AFC1E4D58BA0010715F /* ChildVC */ = {
+			isa = PBXGroup;
+			children = (
+				E7021AFD1E4D58BA0010715F /* HotViewController.h */,
+				E7021AFE1E4D58BA0010715F /* HotViewController.m */,
+				E7021AFF1E4D58BA0010715F /* ReaderViewController.h */,
+				E7021B001E4D58BA0010715F /* ReaderViewController.m */,
+				E7021B011E4D58BA0010715F /* ScienceViewController.h */,
+				E7021B021E4D58BA0010715F /* ScienceViewController.m */,
+				E7021B031E4D58BA0010715F /* ScoietyViewController.h */,
+				E7021B041E4D58BA0010715F /* ScoietyViewController.m */,
+				E7021B051E4D58BA0010715F /* TopLineViewController.h */,
+				E7021B061E4D58BA0010715F /* TopLineViewController.m */,
+				E7021B071E4D58BA0010715F /* VideoViewController.h */,
+				E7021B081E4D58BA0010715F /* VideoViewController.m */,
+			);
+			path = ChildVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7021ABE1E4D51A70010715F /* TWScrollPageViewControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7021AEC1E4D51A80010715F /* Build configuration list for PBXNativeTarget "TWScrollPageViewControllerDemo" */;
+			buildPhases = (
+				E7021ABB1E4D51A70010715F /* Sources */,
+				E7021ABC1E4D51A70010715F /* Frameworks */,
+				E7021ABD1E4D51A70010715F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TWScrollPageViewControllerDemo;
+			productName = TWScrollPageViewControllerDemo;
+			productReference = E7021ABF1E4D51A70010715F /* TWScrollPageViewControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7021AD71E4D51A70010715F /* TWScrollPageViewControllerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7021AEF1E4D51A80010715F /* Build configuration list for PBXNativeTarget "TWScrollPageViewControllerDemoTests" */;
+			buildPhases = (
+				E7021AD41E4D51A70010715F /* Sources */,
+				E7021AD51E4D51A70010715F /* Frameworks */,
+				E7021AD61E4D51A70010715F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7021ADA1E4D51A70010715F /* PBXTargetDependency */,
+			);
+			name = TWScrollPageViewControllerDemoTests;
+			productName = TWScrollPageViewControllerDemoTests;
+			productReference = E7021AD81E4D51A70010715F /* TWScrollPageViewControllerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E7021AE21E4D51A80010715F /* TWScrollPageViewControllerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7021AF21E4D51A80010715F /* Build configuration list for PBXNativeTarget "TWScrollPageViewControllerDemoUITests" */;
+			buildPhases = (
+				E7021ADF1E4D51A80010715F /* Sources */,
+				E7021AE01E4D51A80010715F /* Frameworks */,
+				E7021AE11E4D51A80010715F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7021AE51E4D51A80010715F /* PBXTargetDependency */,
+			);
+			name = TWScrollPageViewControllerDemoUITests;
+			productName = TWScrollPageViewControllerDemoUITests;
+			productReference = E7021AE31E4D51A80010715F /* TWScrollPageViewControllerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7021AB71E4D51A70010715F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = csip;
+				TargetAttributes = {
+					E7021ABE1E4D51A70010715F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 936GX39CBK;
+						ProvisioningStyle = Automatic;
+					};
+					E7021AD71E4D51A70010715F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 936GX39CBK;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E7021ABE1E4D51A70010715F;
+					};
+					E7021AE21E4D51A80010715F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 936GX39CBK;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E7021ABE1E4D51A70010715F;
+					};
+				};
+			};
+			buildConfigurationList = E7021ABA1E4D51A70010715F /* Build configuration list for PBXProject "TWScrollPageViewControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7021AB61E4D51A70010715F;
+			productRefGroup = E7021AC01E4D51A70010715F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7021ABE1E4D51A70010715F /* TWScrollPageViewControllerDemo */,
+				E7021AD71E4D51A70010715F /* TWScrollPageViewControllerDemoTests */,
+				E7021AE21E4D51A80010715F /* TWScrollPageViewControllerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7021ABD1E4D51A70010715F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7021AD21E4D51A70010715F /* LaunchScreen.storyboard in Resources */,
+				E7021ACF1E4D51A70010715F /* Assets.xcassets in Resources */,
+				E7021ACD1E4D51A70010715F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7021AD61E4D51A70010715F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7021AE11E4D51A80010715F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7021ABB1E4D51A70010715F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7021B0E1E4D58BA0010715F /* VideoViewController.m in Sources */,
+				E7021B0D1E4D58BA0010715F /* TopLineViewController.m in Sources */,
+				E7021AF81E4D51CC0010715F /* TWScrollPageViewController.m in Sources */,
+				E7021B0C1E4D58BA0010715F /* ScoietyViewController.m in Sources */,
+				E7021AC71E4D51A70010715F /* AppDelegate.m in Sources */,
+				E7021B091E4D58BA0010715F /* HotViewController.m in Sources */,
+				E7021B0B1E4D58BA0010715F /* ScienceViewController.m in Sources */,
+				E7021B0A1E4D58BA0010715F /* ReaderViewController.m in Sources */,
+				E7021AFB1E4D523C0010715F /* TestViewController.m in Sources */,
+				E7021AC41E4D51A70010715F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7021AD41E4D51A70010715F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7021ADD1E4D51A80010715F /* TWScrollPageViewControllerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7021ADF1E4D51A80010715F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7021AE81E4D51A80010715F /* TWScrollPageViewControllerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7021ADA1E4D51A70010715F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7021ABE1E4D51A70010715F /* TWScrollPageViewControllerDemo */;
+			targetProxy = E7021AD91E4D51A70010715F /* PBXContainerItemProxy */;
+		};
+		E7021AE51E4D51A80010715F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7021ABE1E4D51A70010715F /* TWScrollPageViewControllerDemo */;
+			targetProxy = E7021AE41E4D51A80010715F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E7021ACB1E4D51A70010715F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7021ACC1E4D51A70010715F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E7021AD01E4D51A70010715F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7021AD11E4D51A70010715F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7021AEA1E4D51A80010715F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E7021AEB1E4D51A80010715F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7021AED1E4D51A80010715F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 936GX39CBK;
+				INFOPLIST_FILE = TWScrollPageViewControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JSQ.TWScrollPageViewControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E7021AEE1E4D51A80010715F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 936GX39CBK;
+				INFOPLIST_FILE = TWScrollPageViewControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JSQ.TWScrollPageViewControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E7021AF01E4D51A80010715F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 936GX39CBK;
+				INFOPLIST_FILE = TWScrollPageViewControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JSQ.TWScrollPageViewControllerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TWScrollPageViewControllerDemo.app/TWScrollPageViewControllerDemo";
+			};
+			name = Debug;
+		};
+		E7021AF11E4D51A80010715F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 936GX39CBK;
+				INFOPLIST_FILE = TWScrollPageViewControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JSQ.TWScrollPageViewControllerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TWScrollPageViewControllerDemo.app/TWScrollPageViewControllerDemo";
+			};
+			name = Release;
+		};
+		E7021AF31E4D51A80010715F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 936GX39CBK;
+				INFOPLIST_FILE = TWScrollPageViewControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JSQ.TWScrollPageViewControllerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TWScrollPageViewControllerDemo;
+			};
+			name = Debug;
+		};
+		E7021AF41E4D51A80010715F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 936GX39CBK;
+				INFOPLIST_FILE = TWScrollPageViewControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JSQ.TWScrollPageViewControllerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TWScrollPageViewControllerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7021ABA1E4D51A70010715F /* Build configuration list for PBXProject "TWScrollPageViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7021AEA1E4D51A80010715F /* Debug */,
+				E7021AEB1E4D51A80010715F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7021AEC1E4D51A80010715F /* Build configuration list for PBXNativeTarget "TWScrollPageViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7021AED1E4D51A80010715F /* Debug */,
+				E7021AEE1E4D51A80010715F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E7021AEF1E4D51A80010715F /* Build configuration list for PBXNativeTarget "TWScrollPageViewControllerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7021AF01E4D51A80010715F /* Debug */,
+				E7021AF11E4D51A80010715F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E7021AF21E4D51A80010715F /* Build configuration list for PBXNativeTarget "TWScrollPageViewControllerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7021AF31E4D51A80010715F /* Debug */,
+				E7021AF41E4D51A80010715F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7021AB71E4D51A70010715F /* Project object */;
+}
